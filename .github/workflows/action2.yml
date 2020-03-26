@@ -23,7 +23,7 @@ jobs:
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
-    - uses: actions@setup-dotnet@v2
+    - uses: actions@setup-dotnet@v1
       with:
         dotonet-version: 3.1.102
     - name: Build project
